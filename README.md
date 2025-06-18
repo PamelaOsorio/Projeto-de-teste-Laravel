@@ -22,12 +22,12 @@ composer install
 php artisan test
 
 ## Suite de cases
-✅ Validar cadastro de clientes com dados válidos 
-✅ Verificar que apenas usuários autenticados podem cadastrar clientes. (autenticação com sanctum)
-✅ Validar CNPJ único (Evita duplicação)
-✅ Validar que apenas Admin pode aprovar e reprovar cadastro
-✅ Verificar listagem paginada de clientes
-✅ Validar filtros por status e nome
+-✅ Validar cadastro de clientes com dados válidos 
+-✅ Verificar que apenas usuários autenticados podem cadastrar clientes. (autenticação com sanctum)
+-✅ Validar CNPJ único (Evita duplicação)
+-✅ Validar que apenas Admin pode aprovar e reprovar cadastro
+-✅ Verificar listagem paginada de clientes
+-✅ Validar filtros por status e nome
 
 
 ## Resultado do teste rodando
