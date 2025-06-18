@@ -12,12 +12,15 @@ Projeto simples de teste desenvolvido com Laravel para avaliação técnica.
 ## Opcional
 - Laravel Sail (versão utilizada 1.43)
 
+## Comando para clonar o projeto
+git clone https://github.com/PamelaOsorio/Projeto-de-teste-Laravel.git
+
 ## Configuração do Ambiente
 Após clonar o projeto, copie o arquivo `.env.example` para `.env`:
 bash
 cp .env.example .env
 
-# Comando para gerar a chave
+## Comando para gerar a chave
 php artisan key:generate
 
 ## Comando para instalação de dependencias
