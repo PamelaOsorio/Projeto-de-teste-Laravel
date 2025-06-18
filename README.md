@@ -12,8 +12,17 @@ Projeto simples de teste desenvolvido com Laravel para avaliação técnica.
 ## Opcional
 - Laravel Sail (versão utilizada 1.43)
 
+## Configuração do Ambiente
+Após clonar o projeto, copie o arquivo `.env.example` para `.env`:
+bash
+cp .env.example .env
+
+# Comando para gerar a chave
+php artisan key:generate
+
 ## Comando para instalação de dependencias
 composer install
+
 ## Comando para rodar as migrations
 - php artisan migrate
 - php artisan migrate:fresh --seed --env=example (para limpar e gerar novamente)
