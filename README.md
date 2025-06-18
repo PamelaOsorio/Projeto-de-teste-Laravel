@@ -15,9 +15,9 @@ Projeto simples de teste desenvolvido com Laravel para avaliação técnica.
 ## Comando para instalação de dependencias
 composer install
 ## Comando para rodar as migrations
-php artisan migrate
-php artisan migrate:fresh --seed --env=example (para limpar e gerar novamente)
-php vendor/laravel/sail/bin/sail artisan migrate (gerar migrations direto do Laravel Sail)
+- php artisan migrate
+- php artisan migrate:fresh --seed --env=example (para limpar e gerar novamente)
+- php vendor/laravel/sail/bin/sail artisan migrate (gerar migrations direto do Laravel Sail)
 ## Comando para teste 
 php artisan test
 
